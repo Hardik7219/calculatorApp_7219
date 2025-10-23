@@ -1,0 +1,19 @@
+@import "tailwindcss";
+:root {
+  --primary-color: #1e40af;
+  --secondary-color: #f59e0b;
+  --background-color: #000;
+  --text-color: #111827;
+  --border-color: #d1d5db;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
